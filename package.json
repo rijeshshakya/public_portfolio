@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website for my pursuits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass main.scss style.css -w"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Rijesh Shakya",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

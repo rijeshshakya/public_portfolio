@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>your name | Portfolio</title>
+    </head>
+    <link rel="icon" type="image/x-icon" href="navicon.png">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=JetBrains+Mono">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    
+    <body>
+        <header class="header">
+            <img class="header__logo" src="navicon.png">
+            <span class = "header__main">your name</span>
+            <span class = "header__secondary">something that describes you</span>
+        </header>
+
+        <nav class="navigation">
+            <div class="navigation__button" onclick="navButtonClick()"><img src="3053386.png" class="navigation__icon" id="navicon"></img></div>
+            <div class="navigation__background" id="background"></div>
+            <ul class="navigation__bar" id="bar">
+                <li class="navigation__bar__item"><a href="#ABOUT" class="navigation__bar__item__link" onclick="barClick()">ABOUT</a></li>
+                <li class="navigation__bar__item"><a href="#ACADEMICQUALIFICATION" class="navigation__bar__item__link" onclick="barClick()">ACADEMICS</a></li>
+                <li class="navigation__bar__item"><a href="#SKILLS" class="navigation__bar__item__link" onclick="barClick()">SKILLS</a></li>
+                <li class="navigation__bar__item"><a href="#CONTACT" class="navigation__bar__item__link" onclick="barClick()">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div id="ABOUT" class="about">
+            <span class="about__me">about</span>
+            <span class="about__detail">about you</span>
+        </div>
+
+        <div id="ACADEMICQUALIFICATION" class="aq">
+            <span class="aq__header">academics</span>
+            <ul class="aq__list">
+                <li class="aq__list__item">edu 1</li>
+                <li class="aq__list__item">edu 2</li>
+            </ul>
+        </div>
+
+        <div id="SKILLS" class="skills">
+            <span class="skills__header">skills</span>
+            <ul class="skills__list">
+                <li class="skills__list__item">
+                    <div class="skills__list__item__container">
+                    <span class="skills__list__item__container__title">sill 1</span>
+                    <span class="skills__list__item__container__description">something about that skill</span>
+                    <a class="skills__list__item__container__link">link for project</a>
+                </div>
+                </li>
+                <li class="skills__list__item">
+                    <div class="skills__list__item__container">
+                    <span class="skills__list__item__container__title">sill 1</span>
+                    <span class="skills__list__item__container__description">something about that skill</span>
+                    <a class="skills__list__item__container__link">link for project</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__left">
+                <span class="footer__left__email">made by: your name</span>
+            </div>
+
+            <div class="footer__right">
+                <span class="footer__right__title">social media</span>
+                <ul class="footer__right__links">
+                    <li class="footer__right__links__item"><a><img src="github.png" class="footer__right__links__item__icon"></a></li>
+                    <li class="footer__right__links__item"><a><img src="linkedinl.png" class="footer__right__links__item__icon"></a></li>
+                </ul>
+                <span class="footer__right__email">your email</span>
+            </div>
+        </footer>
+    </body>
+</html>
